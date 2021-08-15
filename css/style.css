@@ -1,0 +1,275 @@
+
+/* ======================= Typography ======================= */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@400;500&display=swap');
+
+
+
+/* Regular 400
+Medium 500
+Semi-bold 600
+Bold 700 
+Extra Bold 800*/
+
+
+@media (min-width: 1920px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #434345;
+    margin: 0;
+    padding: 0;
+}
+
+.main-outercon{
+    overflow: hidden;
+   
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+h1 {
+    
+    font-size: 60px;
+    line-height: 70px;
+    color: #151507; 
+}
+
+
+h1 span{
+    color: #453cd7;
+}
+
+h2 {
+ 
+    font-size: 50px;
+    line-height: 60px;
+    color: #453cd7;
+}
+
+h3 {
+    
+    font-size: 26px;
+    line-height: 42px;
+    color: #fff;
+}
+
+h5 {
+    
+    font-size: 20px;
+    line-height: 26px;
+    color: #1D428A;
+}
+
+h6 {
+    
+    font-size: 18px;
+    line-height: 28px;
+    color: #1D428A;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #434345;
+    margin-bottom: 20px;
+}
+
+
+
+a,
+button {
+    -webkit-transition: all 300ms ease-in-out !important;
+    -moz-transition: all 300ms ease-in-out !important;
+    -ms-transition: all 300ms ease-in-out !important;
+    -o-transition: all 300ms ease-in-out !important;
+    transition: all 300ms ease-in-out !important;
+}
+
+a:hover,
+a:active,
+a:focus,
+button:hover,
+button:active,
+button:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ::placeholder {
+    color: #151507;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #151507;
+}
+
+::-ms-input-placeholder {
+    color: #151507;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    height: 55px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #00A5E9;
+    padding: 0 15px;
+    margin-bottom: 20px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #151507;
+    background: #fff;
+}
+
+input:focus,
+textarea:focus {
+    outline: 0;
+
+}
+
+textarea {
+    min-height: 140px;
+    padding: 15px;
+}
+
+
+/* ======================= Common Elements ======================= */
+
+.imgLiquid {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+ .btn {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px solid #453cd7;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    padding: 0 20px;
+    color: #453cd7;
+    background: transparent;
+
+    
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+    background: #453cd7;
+    color: #fff;
+}
+
+.btn-secondary {
+    color: #1D428A;
+    border: 1px solid #1D428A;
+}
+
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:focus {
+    background: #FFB81C;
+    border: 1px solid #FFB81C;
+    color: #1D428A;
+}
+
+
+
+
+section {
+    padding: 60px 0;
+}
+
+
+/* ======================= Header ======================= */
+
+.sticky .header{
+    background-color: #fff;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.navbar-brand img{
+    max-width: 150px;
+}
+
+.navbar .navbar-nav .nav-item {
+    margin-left: 15px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: #453cd7;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav .nav-item.order .nav-link{
+    background-color:  #453cd7;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.navbar .navbar-nav .nav-item.order .nav-link:hover{
+    background-color:  #151507;
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #151507;
+}
+
+.navbar-light .navbar-toggler{
+    border-color:  #453cd7;
+}
+
+
+
+
+
+
+
+
+
+
+/* ======================= Banner ======================= */
+.banner{
+    padding: 200px 0;
+}
