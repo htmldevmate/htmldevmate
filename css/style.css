@@ -1,8 +1,5 @@
-
 /* ======================= Typography ======================= */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Montserrat:wght@400;500&display=swap');
-
-
 
 /* Regular 400
 Medium 500
@@ -10,12 +7,6 @@ Semi-bold 600
 Bold 700 
 Extra Bold 800*/
 
-
-@media (min-width: 1920px) {
-    .container {
-        max-width: 1024px;
-    }
-}
 
 html {
     scroll-behavior: smooth;
@@ -31,9 +22,9 @@ body {
     padding: 0;
 }
 
-.main-outercon{
+.main-outercon {
     overflow: hidden;
-   
+
 }
 
 h1,
@@ -48,55 +39,31 @@ h6 {
 }
 
 h1 {
-    
+
     font-size: 60px;
     line-height: 70px;
-    color: #151507; 
+    color: #151507;
 }
 
-
-h1 span{
+h1 span {
     color: #453cd7;
 }
 
 h2 {
- 
+
     font-size: 50px;
     line-height: 60px;
     color: #453cd7;
 }
 
-h3 {
-    
-    font-size: 26px;
-    line-height: 42px;
-    color: #fff;
-}
-
-h5 {
-    
-    font-size: 20px;
-    line-height: 26px;
-    color: #1D428A;
-}
-
-h6 {
-    
-    font-size: 18px;
-    line-height: 28px;
-    color: #1D428A;
-}
-
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 26px;
+    font-size: 16px;
+    line-height: 24px;
     color: #434345;
     margin-bottom: 20px;
 }
-
-
 
 a,
 button {
@@ -124,31 +91,31 @@ ol {
     padding: 0;
 }
 
-
-/* ::placeholder {
-    color: #151507;
+::placeholder {
+    color: #434345;
     opacity: 1;
 }
 
 :-ms-input-placeholder {
-    color: #151507;
+    color: #434345;
 }
 
 ::-ms-input-placeholder {
-    color: #151507;
+    color: #434345;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
     width: 100%;
-    height: 55px;
-    -webkit-border-radius: 2px;
-    border-radius: 2px;
-    border: 1px solid #00A5E9;
+    height: 45px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #453cd7;
     padding: 0 15px;
     margin-bottom: 20px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     color: #151507;
@@ -166,7 +133,6 @@ textarea {
     padding: 15px;
 }
 
-
 /* ======================= Common Elements ======================= */
 
 .imgLiquid {
@@ -175,7 +141,7 @@ textarea {
     background-position: center;
 }
 
- .btn {
+.btn {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -188,8 +154,6 @@ textarea {
     padding: 0 20px;
     color: #453cd7;
     background: transparent;
-
-    
 }
 
 .btn-primary:hover,
@@ -212,22 +176,18 @@ textarea {
     color: #1D428A;
 }
 
-
-
-
 section {
     padding: 60px 0;
 }
 
-
 /* ======================= Header ======================= */
 
-.sticky .header{
+.sticky .header {
     background-color: #fff;
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
 }
 
-.navbar-brand img{
+.navbar-brand img {
     max-width: 150px;
 }
 
@@ -235,41 +195,153 @@ section {
     margin-left: 15px;
 }
 
-.navbar .navbar-nav .nav-item .nav-link{
+.navbar .navbar-nav .nav-item .nav-link {
     color: #453cd7;
     text-transform: uppercase;
 }
 
-.navbar .navbar-nav .nav-item.order .nav-link{
-    background-color:  #453cd7;
+.navbar .navbar-nav .nav-item.order .nav-link {
+    background-color: #453cd7;
     color: #fff;
     -webkit-border-radius: 5px;
     border-radius: 5px;
 }
 
-.navbar .navbar-nav .nav-item.order .nav-link:hover{
-    background-color:  #151507;
+.navbar .navbar-nav .nav-item.order .nav-link:hover {
+    background-color: #151507;
     color: #fff;
 }
 
-.navbar .navbar-nav .nav-item .nav-link:hover{
+.navbar .navbar-nav .nav-item .nav-link:hover {
     color: #151507;
 }
 
-.navbar-light .navbar-toggler{
-    border-color:  #453cd7;
+.navbar-light .navbar-toggler {
+    border-color: #453cd7;
 }
 
-
-
-
-
-
-
-
-
-
 /* ======================= Banner ======================= */
-.banner{
+.banner {
     padding: 200px 0;
+}
+
+/* ======================= Service section ======================= */
+.services-section{
+    background-color: #f1f1f1;
+}
+
+.services-list ul li {
+    display: block;
+}
+
+.services-list ul li a {
+    display: block;
+    padding: 40px;
+    background: rgb(3, 196, 161);
+    background: -moz-linear-gradient(left, rgba(3, 196, 161, 1) 0%, rgba(69, 60, 215, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(3, 196, 161, 1) 0%, rgba(69, 60, 215, 1) 100%);
+    background: linear-gradient(to right, rgba(3, 196, 161, 1) 0%, rgba(69, 60, 215, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03c4a1', endColorstr='#453cd7', GradientType=1);
+    text-align: center;
+    margin-bottom: 20px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: all 300ms ease-in-out !important;
+    -moz-transition: all 300ms ease-in-out !important;
+    -ms-transition: all 300ms ease-in-out !important;
+    -o-transition: all 300ms ease-in-out !important;
+    transition: all 300ms ease-in-out !important;
+}
+
+.services-list ul li a:hover {
+    background: rgb(69, 60, 215);
+    background: -moz-linear-gradient(left, rgba(69, 60, 215, 1) 0%, rgba(3, 196, 161, 1) 100%);
+    background: -webkit-linear-gradient(left, rgba(69, 60, 215, 1) 0%, rgba(3, 196, 161, 1) 100%);
+    background: linear-gradient(to right, rgba(69, 60, 215, 1) 0%, rgba(3, 196, 161, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#453cd7', endColorstr='#03c4a1', GradientType=1);
+}
+
+/* ======================= Works section ======================= */
+.work-block {
+    height: 300px;
+    overflow: hidden;
+    border: 1px solid #453cd7;
+    margin-bottom: 30px;
+}
+
+/* ======================= Clients section ======================= */
+.clients-section{
+    background-color: #f1f1f1;
+}
+
+.clients-list ul li {
+    width: 20%;
+    display: inline-block;
+    margin: 10px;
+}
+
+/* Arrows */
+.slick-prev,
+.slick-next {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    bottom: -80px;
+    display: block;
+    width: 60px;
+    height: 60px;
+    padding: 0;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 0 auto;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    opacity: 0.75;
+}
+
+.slick-prev {
+    left: -70px;
+    right: 0;
+}
+
+.slick-prev:before {
+    content: url("../images/prev.png");
+}
+
+.slick-next {
+    left: 0;
+    right: -70px;
+}
+
+.slick-next:before {
+    content: url("../images/next.png");
+}
+
+/* ======================= Footer ======================= */
+.footer {
+    padding: 40px;
+    background-color: #453cd7;
+}
+
+.copyright-txt {
+    color: #fff;
+}
+
+.social-nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-nav ul li a {
+    color: #fff;
+}
+
+.social-nav ul li a:hover {
+    opacity: 0.75;
 }
